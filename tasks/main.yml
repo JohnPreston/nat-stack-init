@@ -12,5 +12,11 @@
   action: ec2_facts
   register: ec2_data
 
+- name: Common tasks
+  include: common.yml
+
+- name: Global configuration
+  include: global_configuration.yml
+
 - name: EIP
   include: get_addresses.yml
