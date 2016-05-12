@@ -1,0 +1,17 @@
+galaxy_info:
+  author: John Preston [JMille]
+  description: NAT stack init role
+  company:
+  license: GPLv3
+  min_ansible_version: 1.9
+  #github_branch:
+  platforms:
+  - name: EL
+    versions:
+    - 6
+    - 7
+  galaxy_tags:
+  - nat
+  - ec2
+
+dependencies: []
