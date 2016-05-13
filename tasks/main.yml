@@ -20,3 +20,6 @@
 
 - name: EIP
   include: get_addresses.yml
+
+- name: Add ansible logrotate
+  copy: src=ansible dest=/etc/logrotate.d/ansible
