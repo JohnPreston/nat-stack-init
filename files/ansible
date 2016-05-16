@@ -1,9 +1,9 @@
-/var/log/bind/ansible.log {
+/var/log/ansible.log {
     create 664 root root
     missingok
     notifempty
     compress
-    size 10k
+    size 100M
     daily
     rotate 4
     compress
